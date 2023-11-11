@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1>Computer</h1>
+      <img src="assets/img/mac.jpeg" alt="" />
+      <p>Precio:<span id="precio">$100.000</span></p>
+      <!-- <p>Cantidad: <span id="cantidad">0</span></p> -->
+      <!-- <label for="cantidad"
+        >Cantidad:
+        <input
+          id="cantidad"
+          type="number"
+          min="0"
+          max="50"
+          placeholder="Ingrese Cantidad"
+        />
+      </label> -->
+
+      <label for="color"
+        >Color:
+        <select name="Color" id="color">
+          <option for="color" value="disabled" disabled selected>Select</option>
+          <option for="color" value="red">Red</option>
+          <option for="color" value="blue">Blue</option>
+          <option for="color" value="green">Yellow</option>
+        </select>
+      </label>
+      <p id="paintColor" class="color">Color</p>
+
+      <fieldset>
+        <legend>Botones</legend>
+        <button type="buttton" id="mas">+</button>
+        <button type="reset" id="reset">Reset</button>
+        <button type="buttton" id="menos">-</button>
+      </fieldset>
+      <p>Cantidad:<span id="cantidad">0</span></p>
+      <p>Total:<span id="paintTotal">0</span></p>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

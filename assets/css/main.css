@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 80%;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+p {
+    font-family: monospace;
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    border: 1px solid black;
+    padding: 1%;
+}
+
+label {
+    font-family: monospace;
+    font-size: large;
+    margin: 1%;
+    border: 1px solid black;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+#cantidad {
+    width: 45%;
+    text-align: center;
+}
+
+#color {
+    width: 45%;
+    text-align: center;
+}
+
+div {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+fieldset {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
